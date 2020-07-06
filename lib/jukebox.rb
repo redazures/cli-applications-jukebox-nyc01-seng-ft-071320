@@ -71,5 +71,3 @@ def run(list)
   end
   exit_jukebox
 end
-
-run(lit)
