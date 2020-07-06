@@ -59,6 +59,7 @@ def run
   input=gets.strip
   until input =="exit" do
     puts "That boy aint right"
+    input=gets.strip
   end
 end
 
