@@ -64,6 +64,7 @@ def run
       list
     elsif input =="play"
       play
+    end
     puts "That boy aint right"
     input=gets.strip
   end
