@@ -65,7 +65,7 @@ def run
     elsif input =="play"
       play
     end
-    puts "That boy aint right"
+    puts "Please enter a command:"
     input=gets.strip
   end
   exit_jukebox
