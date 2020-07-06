@@ -66,6 +66,7 @@ def run
       play
     end
     puts "Please enter a command:"
+    # puts "That boy aint right"
     input=gets.strip
   end
   exit_jukebox
