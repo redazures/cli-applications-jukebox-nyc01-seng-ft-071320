@@ -61,9 +61,9 @@ def run(list)
     if input == "help"
       help
     elsif input == "list"
-      list
+      list(list)
     elsif input =="play"
-      play
+      play(list)
     end
     puts "Please enter a command:"
     # puts "That boy aint right"
