@@ -62,6 +62,8 @@ def run
       help
     elsif input == "list"
       list
+    elsif input =="play"
+      play
     puts "That boy aint right"
     input=gets.strip
   end
