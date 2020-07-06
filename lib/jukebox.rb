@@ -54,7 +54,7 @@ def exit_jukebox
   puts "Goodbye"
 end
 
-def run(lit)
+def run(list)
   puts "Please enter a command:"
   input=gets.strip
   until input =="exit" do
