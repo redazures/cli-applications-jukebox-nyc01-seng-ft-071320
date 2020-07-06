@@ -58,6 +58,10 @@ def run
   puts "Please enter a command:"
   input=gets.strip
   until input =="exit" do
+    if input == "help"
+      help
+    elsif input == "list"
+      list
     puts "That boy aint right"
     input=gets.strip
   end
