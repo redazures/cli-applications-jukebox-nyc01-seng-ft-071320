@@ -72,4 +72,4 @@ def run(list)
   exit_jukebox
 end
 
-run
+run(lit)
