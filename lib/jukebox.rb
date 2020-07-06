@@ -61,6 +61,7 @@ def run
     puts "That boy aint right"
     input=gets.strip
   end
+  exit_jukebox
 end
 
 run
